@@ -1,0 +1,64 @@
+* { 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 150;
+ 
+}
+
+body {
+    background-color: #ECEEF1;
+
+}
+.form-holder {
+    margin-left: 37%;   
+    margin-right: 37%;    
+    height: 80vh;
+    min-width: 300px;
+    padding: 10px;
+ 
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 80vh;
+    border: rgb(194, 190, 190) solid 1px;
+
+}
+
+#submit-button { 
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #0077C5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    height: 50px;
+}
+
+input { 
+    width: 80%; 
+    height: 25px;
+}
+
+label { 
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+
+}
+
+#phone-details { 
+    font-size: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+footer { 
+    background-color: #ECEEF1;
+    display: flex;
+    justify-content: center;
+}
