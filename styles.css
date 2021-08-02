@@ -4,6 +4,12 @@
  
 }
 
+h1 { 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
 body {
     background-color: #ECEEF1;
 
@@ -61,4 +67,9 @@ footer {
     background-color: #ECEEF1;
     display: flex;
     justify-content: center;
+}
+
+#intuit-logo { 
+    max-height: 99px;
+    max-width: 307px;
 }
